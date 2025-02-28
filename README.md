@@ -1,6 +1,3 @@
-Voici un **README** bien structuré pour ton projet GitHub :  
-
----
 
 # 🚑 **Système de Gestion des Urgences Médicales**  
 
@@ -15,14 +12,14 @@ Ce projet est une application CLI permettant de gérer les patients, les urgence
 
 ## 📂 **Architecture du Projet**  
 ```
-gestion_urgences/
+urgence_medicale/
 │── models/
 │   ├── patient.py        # Classe Patient
 │   ├── consultation.py   # Classe Consultation
-│   ├── historique.py     # Gestion de l'historique médical (Liste Chaînée)
 │── features/
 │   ├── abr.py            # Arbre Binaire de Recherche pour gérer les patients
 │   ├── file_priorite.py  # File de Priorité pour la gestion des urgences
+|   ├── historiqueMedical.py # Gestion de l'historique médical (Liste Chaînée)
 │── main.py               # Interface CLI du projet
 │── README.md             # Documentation du projet
 ```
@@ -33,8 +30,8 @@ gestion_urgences/
 
 ### **1️⃣ Cloner le projet**  
 ```bash
-git clone https://github.com/votre-utilisateur/gestion-urgences.git
-cd gestion-urgences
+git clone https://github.com/donia-fioklou/urgence_medicale.git
+cd urgence_medicale
 ```
 
 ### **2️⃣ Installer Python (si ce n'est pas déjà fait)**  
@@ -46,7 +43,7 @@ python --version
 ### **3️⃣ Lancer l'application**  
 Exécute simplement :  
 ```bash
-python gestion_urgences/main.py
+python urgence_medicale/main.py
 ```
 
 ---
