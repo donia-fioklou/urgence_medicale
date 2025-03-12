@@ -38,12 +38,13 @@ cd urgence_medicale
 Ce projet fonctionne avec **Python 3.7+**. Vérifiez votre version avec :  
 ```bash
 python --version
+pip install pillow
 ```
 
 ### **3️⃣ Lancer l'application**  
 Exécute simplement :  
 ```bash
-python urgence_medicale/main.py
+python urgence_medicale/interface1.py
 ```
 
 ---
@@ -75,5 +76,6 @@ Le menu principal propose trois sections principales :
   - **Arbre Binaire de Recherche (ABR)** pour la gestion des patients  
   - **File de Priorité** pour la gestion des urgences  
   - **Liste Chaînée** pour l'historique médical  
+-pickle "pour sauvegarder les objets"
 
 ---

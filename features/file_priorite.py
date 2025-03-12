@@ -48,7 +48,14 @@ class FilePriorite:
                 patient.urgence = nouvelle_priorite
                 self._monter(i)
                 self._descendre(i)
+                return 1
                 break
+    def verifier_patient(self, id_patient):
+        for i, patient in enumerate(self.patients):
+            if patient.id_patient == id_patient:
+              return 1
+               
 
     def afficher_file(self):
-        return [str(p) for p in self.patients]
+        return self.patients
+        #return [str(p) for p in self.patients]

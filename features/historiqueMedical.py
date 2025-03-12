@@ -20,5 +20,7 @@ class HistoriqueMedical:
     def afficher_historique(self):
         courant = self.tete
         while courant:
+            a=courant
             print(f"Date: {courant.date}, Médecin: {courant.medecin}, Diagnostic: {courant.diagnostic}, Traitement: {courant.traitement}")
             courant = courant.suivant
+            return a.date,a.medecin,a.diagnostic,a.traitement
